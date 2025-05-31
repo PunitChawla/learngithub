@@ -4,6 +4,7 @@ a=10
 b=20
 print(a+b)
 
+
 c=int(input("enter any no"))
 d=int(input("enter any no"))
 try:
@@ -11,3 +12,6 @@ try:
     print(rem)
 except Exception as e:
     print(e)
+    
+print(a*b)
+
